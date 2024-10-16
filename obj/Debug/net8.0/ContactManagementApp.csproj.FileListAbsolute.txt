@@ -33,3 +33,4 @@
 /Users/rabindrasingh/RandD/ContactManagementApp/obj/Debug/net8.0/ref/ContactManagementApp.dll
 /Users/rabindrasingh/RandD/ContactManagementApp/bin/Debug/net8.0/contacts.json
 /Users/rabindrasingh/RandD/ContactManagementApp/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/rabindrasingh/RandD/ContactManagementApp/obj/Debug/net8.0/ContactManagementApp.sourcelink.json

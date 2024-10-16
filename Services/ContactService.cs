@@ -4,7 +4,7 @@ using System.IO;
 
 namespace ContactManagementApp.Services
 {
-    public class ContactService
+    public class ContactService: IContactService
     {
         private readonly string filePath = "contacts.json"; // Adjust path as needed
 

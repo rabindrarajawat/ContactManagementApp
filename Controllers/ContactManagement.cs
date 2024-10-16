@@ -8,11 +8,11 @@ namespace ContactManagementApp.Controllers
     [Route("api/[controller]")]
     public class ContactManagement : ControllerBase
     {
-        private readonly ContactService _contactService;
+        private readonly IContactService _contactService;
 
-        public ContactManagement()
+        public ContactManagement(IContactService contactService)
         {
-            _contactService = new ContactService(); // Instantiate the service
+            _contactService = contactService;
         }
         // GET api/ContactManagement
         [HttpGet]

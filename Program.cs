@@ -1,4 +1,5 @@
 using ContactManagementApp.Middleware;
+using ContactManagementApp.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,7 @@ builder.Services.AddCors(options =>
                    .AllowAnyHeader(); // Allow any header
         });
 });
+builder.Services.AddScoped<IContactService, ContactService>(); 
 var app = builder.Build();
 
 // Register the global error-handling middleware
